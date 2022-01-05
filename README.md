@@ -4,7 +4,7 @@
 
 How accurately can a machine learning model diagnose the following respiratory infections based on a chest x-ray?
 * Pneumonia
-* COVID-19 
+* COVID-19
 * Tuberculosis
 
 Link to Kaggle Dataset Used: https://www.kaggle.com/jtiptj/chest-xray-pneumoniacovid19tuberculosis
@@ -54,7 +54,7 @@ The entirety of the x-ray image loading and processing applied to the data befor
        ├── PNEUMONIA  
        └── TURBERCULOSIS  
 
-### Models 
+### Models
 Work for each individual model that results are reported for (KNN, Naive Bayes, SVN and Multi-Layer Perceptron), as well as the ensemble model presented, is contained within a separate Jupyter notebook.  
 
 | Model | File Name |  
@@ -69,9 +69,9 @@ Work for each individual model that results are reported for (KNN, Naive Bayes, 
 The data loading and model files relevant to the experiment conducted with the NIHCC dataset (in which the best performing models using the Kaggle data set linked above are ran on the more extensive NIHCC dataset) are contained within the NIHCC directory.
 
 ### Archive
-The files contiained within the `archive` directory contains various preliminary experiments with different image libraries and data processing, example files for standardizing model approaches between team-members and initial data analysis. 
+The files contiained within the `archive` directory contains various preliminary experiments with different image libraries and data processing, example files for standardizing model approaches between team-members and initial data analysis.
 
-## Contributions 
+## Contributions
 ### Alexandra Drossos
 * Repository Management
 * Multi-Layer Perceptron Model
@@ -79,7 +79,7 @@ The files contiained within the `archive` directory contains various preliminary
 
 ### Julia Hossu
 * X-Ray Medical Research + DICOM Experiments
-* Image Processing / Loading Code 
+* Image Processing / Loading Code
 * KNN Model
 
 ### Anne Marshall
@@ -88,7 +88,6 @@ The files contiained within the `archive` directory contains various preliminary
 * NIHCC Data Processing
 
 ### Hassan Saad
-* Data Loading Library Research 
+* Data Loading Library
 * Naive Bayes Model
 * Voting Ensemble Models
-

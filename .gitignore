@@ -1,4 +1,7 @@
-data/
+data/test/
+data/train/
+data/val/
 .ipynb_checkpoints/
 __pycache__/
 *.py[cod]
+.DS_Store
